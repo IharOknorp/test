@@ -87,10 +87,6 @@ function calculateLeaderboardPlaces(users, minScores) {
 
     return result;
 }
-
-// ------------------------------------------------------------------
-// Ниже тестовая часть, её менять не нужно. Она проверяет корректность.
-// ------------------------------------------------------------------
 function checkResult(answer, correctAnswer) {
     if (!answer) return false;
     if (!Array.isArray(answer)) return false;
